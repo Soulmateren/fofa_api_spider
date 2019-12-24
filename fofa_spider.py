@@ -103,7 +103,7 @@ def main():
     argv = sys.argv[1]
     if argv == "-h":
         print """
-        use: python fofa_spider1111.py search_total
+        use: python fofa_spider.py search_total
         -h help
         -d delete all data!
         -r read all data!
