@@ -4,8 +4,8 @@ import fofa
 import redis
 import pickle
 import sys
-
-email, key = ("xuezhengyu@sangfor.com.cn", "9e8d20fddd232ef92a231444ec7ccb9d")
+# 输入自己的fofa 账号，key
+email, key = ("", "")
 client = fofa.Client(email,key)
 list_result=[]
 
